@@ -46,7 +46,7 @@ namespace T2_FP_G12
             // Valida si hay datos en la lista listProd para mostrar en el DataGridView
             if (G12_registro.listProd == null || G12_registro.listProd.Count == 0)
             {
-                MessageBox.Show("No hay productos disponibles para buscar.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("No hay stock disponibles para visualizar.", "Aviso", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 this.Close();
                 return;
             }
